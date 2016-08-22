@@ -24,7 +24,7 @@ public class DebugSix4
          System.out.print("Enter a number higher than " + low + "... ");
          high = input.nextInt();
       }
-
+      count = 0;
       while(count < low)
       {
          double result = Math.random();
